@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none; 
+    font-size: 20px;
+   font-family:cursive;    
+    }
+
+body{
+    background: black;
+}    
+nav ul {
+   display: flex;
+   justify-content: space-around;  
+   margin: 20px;
+   padding-bottom: 300px;
+   
+}
+nav ul li a {
+    background: yellow;
+   padding: 10px 30px;
+     
+}    
+nav ul li a:hover { 
+    background:red;
+    color: white;
+}    
+nav ul li:first-child a {
+    background: blue;
+    color: white;
+}
+nav ul li:last-child a {
+    background: rgb(151, 244, 10);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+p a { 
+    font-size: 40px;
+    text-transform: uppercase;   
+}
+p a:link {
+    color: rgb(88, 163, 229);
+    background-color: bisque;
+}
+p a:hover {
+    color: blueviolet;
+    background-color: brown;
+}
+p a:active {
+    color: green;
+    background-color: yellow;
+}
+p a:visited {
+    color: rgb(255, 162, 0);
+    background-color: blue;
+}
